@@ -1,87 +1,29 @@
-header{
-  display: flex;
-  height: 70px;
-  max-width: 100%;
 
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px;
-}
-.logo img{
-  border-radius: 50%;
-  height: 100px;
-  margin-right: 10px;
-  max-width: 100%;
-  margin-bottom: 0.5em;
-
-}
-.logo{
-  display: flex;
-  align-items: center;
-  max-width: 100%;
-
-}
-.logo h3{
-  color: black;
- 
-  margin-right: 50px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  max-width: 100%;
-  
-  
-}
-.logo a{
-  text-decoration: none;
-}
 body{
   background-color:white;
   margin: 1em;
 }
 img{
-  max-width: 100%;
+max-width: 100%;
  margin-bottom: 0.5em;
  display: block;
- /*outline: 2px solid #fff;*/
+/* outline: 2px solid #fff;*/
  outline-offset:-10px;
  border-radius: 25px 25px 25px 25px;  /* 4 parámetros */
 }
 video{
-  max-width: 100%;
+max-width: 100%;
  margin-bottom: 0.5em;
  display: block;
- outline: 2px solid #fff;
- /*outline-offset:-10px;*/
+/* outline: 2px solid #fff;*/
+ outline-offset:-10px;
  border-radius: 25px 25px 25px 25px;  /* 4 parámetros */
 }
-/*.grid-container{
+.grid-container{
   columns:5 320px;
   column-gap: 0.7em;
  
   
-}*/
-.grid-container {
-  /* display: grid;
-  grid-template-columns: repeat(auto-fill, 230px);
-  gap: 20px;
-  justify-content: center; */
-
-  /* grid-template-rows: masonry; */
-
-  margin: 0 auto;
-}
-.grid-item {
-  width: 140px;
-
-   
-  
-  margin-bottom: 20px;
-  border-radius: 15px;
-  cursor: zoom-in;
-  background-color: lightgray;
-}
-
-.grid-item:hover {
-  filter: opacity(0.9);
 }
 
 
